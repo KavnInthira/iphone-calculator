@@ -1,43 +1,18 @@
 body {
-font-family: sans-serif;
-font-size: 40px;
-background-color: rgb(223, 248, 247);
-}
+    font-family: sans-serif;
+    font-size: 40px;
+    background-color:black;
+    }
+
 .calculator .screen {
     padding-left: 100px;
-}
+    color: white;
+    }
+
+
+/* ROW ONE*/
 .calculator .rowOne .clear, .changeSign, .percent{
-  background-color: lightgray; /* Green */
-  border-style: none;
-  color: black;
-  padding: 13px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 25px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 50%;
-  outline: none;
-  opacity: 1;
-  width: 60px;
-  height: 60px;
-  font-weight: 500;
-}
-.calculator .rowOne .clear:active {
-    background-color: rgb(230, 230, 230);
-    opacity: 2;
-}
-.calculator .rowOne .changeSign:active {
-    background-color: rgb(230, 230, 230);
-    opacity: 2;
-}
-.calculator .rowOne .percent:active {
-    background-color: rgb(230, 230, 230);
-    opacity: 2;
-}
-.calculator .rowOne .divide {
-    background-color: orange; /* Green */
+    background-color: lightgray; /* Green */
     border-style: none;
     color: black;
     padding: 13px;
@@ -53,6 +28,254 @@ background-color: rgb(223, 248, 247);
     width: 60px;
     height: 60px;
     font-weight: 500;
-  }
+    }
+.calculator .rowOne .clear:active {
+    background-color: rgb(230, 230, 230);
+    opacity: 2;
+    }
+.calculator .rowOne .changeSign:active {
+    background-color: rgb(230, 230, 230);
+    opacity: 2;
+    }
+.calculator .rowOne .percent:active {
+    background-color: rgb(230, 230, 230);
+    opacity: 2;
+    }
+.calculator .rowOne .divide {
+    background-color: orange; /* Green */
+    border-style: none;
+    color: white;
+    padding: 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    outline: none;
+    opacity: 1;
+    width: 60px;
+    height: 60px;
+    font-weight: 500;
+    }
+
+/* ROW TWO*/
+.calculator .rowTwo .seven, .eight, .nine{
+    background-color: rgb(109, 107, 107); /* Green */
+    border-style: none;
+    color: white;
+    padding: 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    outline: none;
+    opacity: 1;
+    width: 60px;
+    height: 60px;
+    font-weight: 500;
+    }
+.calculator .rowTwo .seven:active {
+    background-color: rgb(209, 208, 208);
+    opacity: 2;
+}
+.calculator .rowTwo .eight:active {
+    background-color: rgb(209, 208, 208);
+    opacity: 2;
+}
+.calculator .rowTwo .nine:active {
+    background-color:rgb(209, 208, 208);
+    opacity: 2;
+}
+.calculator .rowTwo .times {
+    background-color: orange; /* Green */
+    border-style: none;
+    color: white;
+    padding: 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    outline: none;
+    opacity: 1;
+    width: 60px;
+    height: 60px;
+    font-weight: 500;
+}
+
+/* ROW THREE*/
+.calculator .rowThree .four, .five, .six{
+    background-color: rgb(109, 107, 107); /* Green */
+    border-style: none;
+    color: white;
+    padding: 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    outline: none;
+    opacity: 1;
+    width: 60px;
+    height: 60px;
+    font-weight: 500;
+    }
+.calculator .rowThree .four:active {
+    background-color: rgb(209, 208, 208);
+    opacity: 2;
+}
+.calculator .rowThree .five:active {
+    background-color: rgb(209, 208, 208);
+    opacity: 2;
+}
+.calculator .rowThree .six:active {
+    background-color:rgb(209, 208, 208);
+    opacity: 2;
+}
+.calculator .rowThree .minus {
+    background-color: orange; /* Green */
+    border-style: none;
+    color: white;
+    padding: 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    outline: none;
+    opacity: 1;
+    width: 60px;
+    height: 60px;
+    font-weight: 500;
+}
+
+/* ROW FOUR*/
+.calculator .rowFour .one, .two, .three{
+    background-color: rgb(109, 107, 107); /* Green */
+    border-style: none;
+    color: white;
+    padding: 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    outline: none;
+    opacity: 1;
+    width: 60px;
+    height: 60px;
+    font-weight: 500;
+    }
+.calculator .rowfour .one:active {
+    background-color: rgb(209, 208, 208);
+    opacity: 2;
+}
+.calculator .rowFour .two:active {
+    background-color: rgb(209, 208, 208);
+    opacity: 2;
+}
+.calculator .rowFour .three:active {
+    background-color:rgb(209, 208, 208);
+    opacity: 2;
+}
+.calculator .rowFour .plus {
+    background-color: orange; /* Green */
+    border-style: none;
+    color: white;
+    padding: 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    outline: none;
+    opacity: 1;
+    width: 60px;
+    height: 60px;
+    font-weight: 500;
+}
+
+/* ROW FIve*/
+.calculator .rowFive .decimal, .three{
+    background-color: rgb(109, 107, 107); /* Green */
+    border-style: none;
+    color: white;
+    padding: 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    outline: none;
+    opacity: 1;
+    width: 60px;
+    height: 60px;
+    font-weight: 500;
+    }
+.calculator .rowFive .zero {
+    background-color: rgb(109, 107, 107); /* Green */
+    border-style: none;
+    color: white;
+    padding: 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px 30px 30px 30px;
+    outline: none;
+    opacity: 1;
+    width: 133px;
+    height: 60px;
+    font-weight: 500;
+
+}
+.calculator .rowFive .zero:active {
+    background-color: rgb(209, 208, 208);
+    opacity: 2;
+}
+.calculator .rowFive .decimal:active {
+    background-color: rgb(209, 208, 208);
+    opacity: 2;
+}
+
+.calculator .rowFive .equals {
+    background-color: orange; /* Green */
+    border-style: none;
+    color: white;
+    padding: 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    outline: none;
+    opacity: 1;
+    width: 60px;
+    height: 60px;
+    font-weight: 500;
+}
+
+
 
 
