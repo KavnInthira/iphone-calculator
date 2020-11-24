@@ -3,12 +3,18 @@ body {
     font-size: 40px;
     background-color:black;
     }
+.calculator {
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
 
 .calculator .screen {
-    padding-left: 100px;
+    padding-left: 241px;
+    font-size: 65px;
     color: white;
+    height: 12px;
     }
-
 
 /* ROW ONE*/
 .calculator .rowOne .clear, .changeSign, .percent{
@@ -179,7 +185,7 @@ body {
     height: 60px;
     font-weight: 500;
     }
-.calculator .rowfour .one:active {
+.calculator .rowFour .one:active {
     background-color: rgb(209, 208, 208);
     opacity: 2;
 }
