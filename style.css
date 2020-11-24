@@ -1,0 +1,58 @@
+body {
+font-family: sans-serif;
+font-size: 40px;
+background-color: rgb(223, 248, 247);
+}
+.calculator .screen {
+    padding-left: 100px;
+}
+.calculator .rowOne .clear, .changeSign, .percent{
+  background-color: lightgray; /* Green */
+  border-style: none;
+  color: black;
+  padding: 13px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50%;
+  outline: none;
+  opacity: 1;
+  width: 60px;
+  height: 60px;
+  font-weight: 500;
+}
+.calculator .rowOne .clear:active {
+    background-color: rgb(230, 230, 230);
+    opacity: 2;
+}
+.calculator .rowOne .changeSign:active {
+    background-color: rgb(230, 230, 230);
+    opacity: 2;
+}
+.calculator .rowOne .percent:active {
+    background-color: rgb(230, 230, 230);
+    opacity: 2;
+}
+.calculator .rowOne .divide {
+    background-color: orange; /* Green */
+    border-style: none;
+    color: black;
+    padding: 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    outline: none;
+    opacity: 1;
+    width: 60px;
+    height: 60px;
+    font-weight: 500;
+  }
+
+
