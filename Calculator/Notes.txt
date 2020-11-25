@@ -1,0 +1,1 @@
+11/24/2020 - update text with multiple numbers clicked. if the button 1 and 2 is clicked the screen shows 12. The issue is when 1 is clicked then 2 the 2 replaces the one.
